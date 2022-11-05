@@ -1,6 +1,70 @@
-.header {
-	height: 20vh;
+:root {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
 	width: 100vw;
-	background-color: blue;
-	color: red;
+	background-image: url('./beach.jpeg');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 80px;
+	height: 10vh;
+	width: 100vw;
+	background-color: rgba(16,10,42,1);
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 30px;
+}
+
+.tab {
+	border: 2px solid rgba(120,68,118,1);
+	padding: 10px 15px 10px 15px;
+	border-radius: 6px 6px 0 0;
+	border-bottom: none;
+}
+
+.pageBody {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 90vh;
+	width: 100ww;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bodyContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	width: 600px;
+	background-color: rgba(16,10,42,1);
+	margin-top: 50px;
+	border-radius: 12px;
+	gap: 20px;
+}
+
+.name {
+	position: relative;
+	top: -30px;
+	font-size: 40px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid white;
+}
+
+.description {
+	text-align: center;
+	font-size: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
 }
